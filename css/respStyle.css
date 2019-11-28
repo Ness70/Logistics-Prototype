@@ -452,7 +452,7 @@ li > a:only-child:after { content: ''; }
     border-radius: 4px;
     max-width: 500px;
     position: relative;
-    margin: 8em auto;
+    margin: 5em auto;
     padding: 3em 2em;
     z-index: 999;
 }
@@ -542,6 +542,8 @@ h2.heading,h3.heading {
 .choose,.video{
 	background-image: url(../images/curve2.svg);
 	background-size: cover;
+	opacity: 0.6;
+	z-index: 1000;
 }
 .f1 h3 {
     font-size: 25px;
@@ -711,7 +713,7 @@ a.btn-w3layouts_pvt {
     border-radius: 4px;
     max-width: 500px;
     position: relative;
-    margin: 8em auto;
+    margin: 5em auto;
     padding: 3em 2em 2em;
 }
 
